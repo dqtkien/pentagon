@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "./build",
+    "baseUrl": "./",
+    "paths": {
+      "@src": ["./src"],
+      "@helper": ["./src/helper"],
+      "@data": ["./src/data"]
+    },
+    "strict": true,
+    "declaration": false,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["./build", "node_modules", "**/*.spec.ts", "**/*.test.ts"]
+}

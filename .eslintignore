@@ -1,0 +1,8 @@
+built/
+node_modules/
+husky.js
+increase-built.js
+devel.js
+migrations/
+knexfile.ts
+seeds/
